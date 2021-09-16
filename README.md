@@ -1,19 +1,15 @@
-# Tech interview
+# Intro
  
-The interview is organized in 4 different, ascending, steps. 
-
-1. Given some "legacy" code the candidate has inherited, discuss, propose and motivate possible refactor and improvement actions ([Refactor](./00-refactor/README.md))
-2. The candidate is asked to implement a small, simple, non-trivial function to solve a well-defined problem (extensive examples of desired input and output are provided) ([Small code](./01-small_code/README.md))
-3. Given detailed requirements the candidate is asked to discuss a possible implementation ([From requirements to implementation](./02-from_requirements_to_implementation)) 
-4. Given a general idea the candidate is asked to discuss possible architectures and to provide a list of requirements ([From idea to requirements](./03-from_idea_to_requirements)) 
-
-The idea is not to trick the candidate but to open a conversation about technical background, solutions, ...
-The steps are language-independent.
-The steps are based (with very few exceptions) on the daily work we deal with everyday here in Pixart.
-
-## Other options
-
-* [Postcard](./postcard/README.md)
-* [Spiral](./spiral/README.md)
-
-
+Hi,
+thank you for your interest in Pixartprinting and thank you for your effort in this step of the interview process.
+ 
+This task is made of multiple steps, please complete them in the order they are presented. Feel free to ask any question you need, and/or take reasonable assumptions.
+Please document and motivate any assumption you take.
+Don't panic if you are not able to complete all the steps. :)
+ 
+The deliverable we are expecting is a link to a repository (if possible, on GitHub) containing:
+ 
+* Your code
+* One or multiple Dockerfile (if multiple, please include a docker compose file) to test and run the code. We should be able to deal with your application without installing anything but docker in our system.
+* A README.md file, containing a description of the code, documentation, assumptions you took. In general, anything you think would help us understanding and running your work.
+ 
