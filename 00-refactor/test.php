@@ -15,4 +15,21 @@ class Car {
       $this->status = 'off';
     }
   }
+  
+  public function getStatus(){
+    return $this->status;
+  }
+  
+  
+  public function testStart() {
+    $car = new Car();
+    
+    $car->start(true);
+    assertEqual($this->getStatus(), "on");
+    
+    $car->start(false);
+    assertEqual($this->getStatus(), "off");
+    
+  }
+  
 }
