@@ -9,8 +9,9 @@ Please document and motivate any assumption you take.
 The deliverables we are expecting is a link to a repository (if possible, on GitHub) containing:
 
 * Your code
-* One or multiple Dockerfile (if multiple, please include a docker compose file) to test and run the code. We should be able to deal with your application without installing anything but docker in our system.
 * A README.md file, containing a description of the code, documentation, assumptions you took. In general, anything you think would help us understanding and running your work.
+* One or multiple template (Serverless, Cloudformation, SAM, ... it's up to you) containing the AWS resources needed to run the project. If you don't have an AWS account or you need resources not included into the free trial, it's fine to run them locally or to use some mock/emulation.
+* A document (even hand-written) containing the components design and the interaction between them (e.g. an api gateway that triggers a lambda).
 
 # The task
 
@@ -89,10 +90,7 @@ Note that the user may close the page before the PDF is generated and delivered.
 
 ## 3 - Architecture
 
-Motivate you choices, the pros and cons, the tradeoffs and how would you change the architecture if you should 
-move from docker to AWS or GPC.    
-How should you modify the architecture should the service scale to thousands of users?
-
+Motivate you choices, the pros, cons and the tradeoffs.
 
 
 
