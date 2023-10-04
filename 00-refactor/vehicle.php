@@ -6,7 +6,8 @@ class Veicolo {
        $this->type = $type;
        $this->marcia = "N";
    }
-protected function giraChiave() { /*...*/ }
+   
+   protected function giraChiave() { /*...*/ }
    protected function azionaKickStarter() { /*...*/ }
    protected function azionaPedaleFreno() { /*...*/ }
    protected function azionaLevaFreno() { /*...*/ }
@@ -21,7 +22,7 @@ protected function giraChiave() { /*...*/ }
            $this->giraChiave();
            $this->inserisciPrimaMarcia();
        }
-       elseif ($his->type == "moto") {
+       elseif ($this->type == "moto") {
            $this->azionaKickStarter();
        }
        else {
